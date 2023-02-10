@@ -1,0 +1,80 @@
+@media only screen and (max-width:768px) {
+    
+    header{
+        margin-bottom: 30vh;
+    }
+    .content1{
+        flex-direction: column;
+    }
+    .content1 .topleft{
+        width: 100vw;
+    }
+    .content1 .right{
+        width: 100vw;
+    }
+    .right2,.right3{
+        width: 100vw;
+    }
+   .about{
+    margin-top: 25vh;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+   }
+   .about h1{
+    opacity: 100%;
+    font-size: 7vw;
+    text-align: center;
+   }
+   .about p{
+    opacity: 100%;
+    font-size: 2vw;
+    text-align: center;
+   }
+   .insideabout{
+    height: 100%;
+   }
+
+   .content2 .left{
+    transform: none;
+    width: 100vw;
+   }
+   .content2 .right{
+     transform: none;
+     width: 100vw;
+   }
+   .content3 .left{
+    transform: none;
+    width: 100vw;
+   }
+   .content3 .right{
+     transform: none;
+     width: 100vw;
+   }
+   .content4 .left{
+    transform: none;
+    width: 100vw;
+   }
+   .content4 .right{
+     transform: none;
+     width: 100vw;
+   }
+}
+@media only screen and (max-width:1030px){
+    .about{
+        background-image: url(images/about.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width:430px){
+    div:nth-of-type(1){
+         height:32vh
+    }
+    .main h1{
+        font-size: 7.5vw;
+    }
+    .main p{
+        font-size: 4.6vw;
+    }
+}
